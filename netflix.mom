@@ -1,69 +1,89 @@
-{
-    "name": "NetFlix(规则)",
-    "pic": "https://50.jpg",
-    "type": "webPlug", 
-    "ads": "",
-    "webUrl": "https://netflix.mom/",
-    "webOpen": false,
-    "search":false,
-    "click": true,
-    "webPlus":{
-    "search_url":"https://netflix.mom/index.php/vod/search.html?wd=
-    "nav_url": "https://netflix.mom/index.php/vod/navCate/html",
-    "web_name":"鸭奈菲",
-        "search":false,
-        "navHtml": {
-            "name": [
-                "电影",
-                "连续剧",
-                "综艺",
-                "动漫",
-        ],
-        "cate": [
-            "1",
-            "2",
-            "3",
-            "4",
-        ],
-        "page": "1"
-    },
-    "html":{
-        "episodes":{
-            "hasUrlPrefix":false,
-            "isListItemAttr":true,
-            "listCss":"div.module-tab-item.tab-item",
-            "isMultiList":true,
-            "listCssMulti":"ul > li",
-            "listItemAttr":"href",
-            "listItemCss":"a",
-            "listItemIndex":0,
-            "mainCss":"div.module-tab-content",
-            "mainIndex":0
-        }
-        "nav": {
-            "isKWInUrl": false,
-            "isWebPlay": false,
-            "descAttr": "",
-            "descCss": "span.module-item-text",
-            "descIndex": 0,
-            "hasImgUrlPrefix": true,
-            "hasUrlPrefix": false,
-            "imgAttr": "data-src",
-            "imgCss": "a",
-            "imgIndex": 0,  "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "div.module",
-            "mainListIndex": 0,
-            "nameAttr": "title",
-            "nameCss": "a",
-            "nameIndex": 0,
-            "searchListCss": "module-list",
-            "urlAttr": "href",
-            "urlCss": "a",
-            "urlIndex": 0
+        {
+            "name":"鸭奈菲(规则)",
+            "pic":"https://imgpub.chuangkit.com/materials/2021/12/18/7ff10ed7-82ba-4234-b76d-64373dca66bc?x-oss-process=image/resize,w_200/format,webp",
+            "type":"webPlug",
+            "ads":"",
+            "webUrl":"https://netflix.mom/",
+            "webOpen":false,
+            "click":true,
+            "webPlus":{
+                "search_url":"https://netflix.mom/index.php/vod/search.html?wd={kw}",
+                "nav_url":"https://netflix.mom/index.php/vod/show/id/navCate/navPage.html",
+                "web_name":"鸭奈菲",
+                "search":true,
+                "navHtml":{
+                    "name":[
+                        "电影",
+                        "连续剧",
+                        "综艺",
+                        "动漫"
+                    ],
+                    "cate":[
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "page":"1"
+                },
+                "html":{
+                    "episodes":{
+                        "hasUrlPrefix":false,
+                        "isListItemAttr":true,
+                        "listCss":"div.scroll-content",
+                        "isMultiList":true,
+                        "listCssMulti":"ul > li",
+                        "listItemAttr":"href",
+                        "listItemCss":"a",
+                        "listItemIndex":0,
+						
+                        "mainCss":"div.module",
+                        "mainIndex":0
+                    },
+                    "nav":{
+                        "descAttr":"",
+                        "descCss":"div.module-item-text",
+                        "descIndex":0,
+                        "hasUrlPrefix":false,
+                        "imgAttr":"data-src",
+                        "imgCss":"img",
+                        "imgIndex":0,
+                        "isDescAttr":false,
+                        "isImgAttr":true,
+                        "isNameAttr":true,
+                        "isUrlAttr":true,
+                        "mainCss":"div.module-items",
+                        "mainListIndex":0,
+                        "nameAttr":"title",
+                        "nameCss":"a",
+                        "nameIndex":2,
+                        "searchListCss":"div",
+                        "urlAttr":"href",
+                        "urlCss":"a",
+                        "urlIndex":0
+                    },
+                    "search":{
+                        "descAttr":"",
+                        "descCss":"div.module-item-text",
+                        "descIndex":0,
+                        "hasUrlPrefix":false,
+                        "imgAttr":"data-src",
+                        "imgCss":"img",
+                        "imgIndex":0,
+                        "isDescAttr":false,
+                        "isImgAttr":true,
+                        "isNameAttr":true,
+                        "isUrlAttr":true,
+                        "mainCss":"div.module-items",
+                        "mainListIndex":1,
+                        "nameAttr":"title",
+                        "nameCss":"a",
+                        "nameIndex":1,
+                        "searchListCss":"div",
+                        "urlAttr":"href",
+                        "urlCss":"a",
+                        "urlIndex":0
+                    }
+                }
             }
-        }
-    }
-}
+        },
